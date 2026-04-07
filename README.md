@@ -1,16 +1,16 @@
-# 📊 Customer Churn Analysis & Prediction
+# 📊 IBM Customer Churn Analysis & Prediction
 
 ---
 
 ## 🧠 Project Overview
 
-This project analyzes customer churn behavior for a telecom company and builds a predictive model to identify customers likely to leave. The goal is not just to predict churn, but to understand **why customers leave** and design actionable retention strategies.
+This project analyzes customer churn behavior using the **IBM Telco Customer Churn Dataset** and builds a predictive model to identify customers likely to leave. The goal is not just to predict churn, but to understand **why customers leave** and design actionable retention strategies.
 
 ---
 
 ## 🎯 Problem Statement
 
-A telecom company is experiencing customer churn but lacks visibility into the underlying causes. The objectives are to:
+The **IBM Telco Customer Churn Dataset** contains customer data from a fictional telecom company provided by IBM. The objectives are to:
 
 - Identify key drivers of churn
 - Predict customers at risk
@@ -29,7 +29,19 @@ A telecom company is experiencing customer churn but lacks visibility into the u
 
 ---
 
-## 🔍 Data Analysis (EDA)
+## 📁 Dataset
+
+| Attribute | Detail |
+|---|---|
+| Source | IBM Sample Dataset (IBM Cognos Analytics) |
+| Domain | Telecom / Customer Churn |
+| Records | 7,043 customers |
+| Features | 21 columns (demographics, services, billing, churn label) |
+| Target Variable | `Churn` (Yes / No) |
+
+> The dataset is publicly available via [IBM's sample data repository](https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-for-telco-churn/) and is widely used for churn analysis and classification tasks.
+
+
 
 Key patterns observed during exploratory data analysis:
 
